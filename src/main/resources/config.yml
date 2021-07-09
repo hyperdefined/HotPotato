@@ -1,0 +1,11 @@
+# How many seconds a player has to confirm to drop an item?
+# Player tries to drop an item -> timer starts
+# If the player tries to drop the item again in this time period, the item will actually drop.
+# If the time passes, then the item won't drop and we move on.
+time-to-confirm: 5
+
+messages:
+  attempt-drop: "&eDrop the item again to confirm drop within {SECONDS} seconds."
+  drop: "&eDropped item!"
+
+config-version: 1
